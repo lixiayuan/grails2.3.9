@@ -23,4 +23,5 @@ RUN mkdir /app
 WORKDIR /app
 
 # Set Default Behavior
-ENTRYPOINT ["grails"]
+# comment out for wercker box usage
+# ENTRYPOINT ["grails"] 
